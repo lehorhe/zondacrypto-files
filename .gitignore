@@ -1,0 +1,22 @@
+# Nigdy nie commitować materiałów dowodowych
+*.webm
+*.mp4
+*.mp3
+*.wav
+*.mkv
+
+# Plik konfiguracyjny xurl (nie ma prawa tu być)
+.xurl
+
+# Artefakty edytora / OS
+*.swp
+.DS_Store
+Thumbs.db
+*~
+
+# Katalogi wewnętrzne workspace'a — nie commitować jeśli ktoś je omyłkowo skopiuje
+evidence/
+raw/
+sessions/
+memory/
+.openclaw/
